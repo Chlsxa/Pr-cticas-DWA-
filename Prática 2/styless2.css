@@ -1,0 +1,37 @@
+.cuadricula{
+    border: 2px  blue;
+    border-radius: 5px;
+    color: beige;
+    display: grid;
+    grid-template-columns: repeat(3, );
+    gap: 10px;
+    padding: 10px;
+}
+
+.box{
+    border: 2px salmon;
+    border-radius: 5px;
+    background-color: rgb(212, 181, 113);
+    padding: 1em;
+    color: cadetblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    box-sizing: border-box;
+}
+
+.nested{
+    border: 2px salmon;
+    border-radius: 5px;
+    background-color: brown;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.box2, .box3, .box4, .box5{
+    border: 2px sandybrown;
+    border-radius:5px;
+    background-color: brown;
+    padding: 1em;
+    color: blueviolet;
+}
