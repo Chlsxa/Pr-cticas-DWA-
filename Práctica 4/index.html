@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de paciente</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <!--Formulario de paciente-->
+        <form class="form-paciente">
+            <h2 class="text-center text-primary mb-4">Registro Paciente</h2>
+            <p class="text-center text-muted">Complete los siguientes pasos</p>
+
+            <div class="form-group">
+                <label for="nombre">Nombre completo</label>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" id="nombre" placeholder="nombre">
+                    </div>
+
+                    <div class="col">
+                        <input type="text" class="form-control" id="apellido" placeholder="apellido">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="fecha-nacimiento">Fecha de naciemiento</label>
+                <input type="date" class="form-control" id="fecha-nacimiento">
+            </div>
+            <div class="form-group">
+                <label for="genero">Genéro</label>
+                <select class="form-control" id="genero">
+                    <option>Masculino</option>
+                    <option>Femenino</option>
+                    <option>Otro</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Número de teléfono</label>
+                <input type="tel" class="form-control" id="telefono" placeholder="numero de telefono">
+            </div>
+
+            
+            <button type="submit" class="btn btn-primary btn-block">Registrar</button>
+        </form>
+    </div>
+</body>
+</html>
