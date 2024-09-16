@@ -1,0 +1,33 @@
+.card{
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 550px; /*fijar la altura de las cards*/
+    overflow: hidden; /*evita que el contenido exceda del tamaño de las cards*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 200px; /*Fijar la altura d ela img*/
+    object-fit: cover; /*para que la img de adapte y mantenga sus proporciones */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body{
+    padding: 20px;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.card-body .btn{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
